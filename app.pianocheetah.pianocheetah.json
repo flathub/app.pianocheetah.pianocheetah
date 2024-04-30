@@ -3,7 +3,7 @@
    "command": "pianocheetah",
    "sdk":     "org.kde.Sdk",
    "runtime": "org.kde.Platform",
-   "runtime-version": "6.6",
+   "runtime-version": "6.7",
    "finish-args": [
       "--filesystem=host",
       "--share=ipc",
@@ -25,7 +25,7 @@
             {
                "type": "git",
                "url": "https://github.com/Stephen-Hazel/pc_build.git",
-               "commit": "5ae019e099cb22ab29d12d422e8fba6f66b0634f"
+               "commit": "0d1709509640469291a25ccdf0e8648da850f9b5"
             }
          ]
       }
