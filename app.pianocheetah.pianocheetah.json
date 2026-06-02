@@ -26,6 +26,10 @@
                "type": "git",
                "url": "https://github.com/Stephen-Hazel/pc_build.git",
                "commit": "24ab3d1513b9c598749681d58a2d1632d773e596"
+            },
+            {
+               "type": "patch",
+               "path": "fix-appdata.patch"
             }
          ]
       }

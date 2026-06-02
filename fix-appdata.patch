@@ -1,0 +1,45 @@
+From db0f1119ad8fa8634c1c6ddb0b907eb0d8b3b4e5 Mon Sep 17 00:00:00 2001
+From: Sabri Ünal <yakushabb@gmail.com>
+Date: Tue, 2 Jun 2026 23:32:58 +0300
+Subject: [PATCH] Fix appdata paper cuts
+
+Signed-off-by: Sabri Ünal <yakushabb@gmail.com>
+---
+ share/metainfo/app.pianocheetah.pianocheetah.metainfo.xml | 8 +++++---
+ 1 file changed, 5 insertions(+), 3 deletions(-)
+
+diff --git a/share/metainfo/app.pianocheetah.pianocheetah.metainfo.xml b/share/metainfo/app.pianocheetah.pianocheetah.metainfo.xml
+index 88dc01b..3af61e3 100644
+--- a/share/metainfo/app.pianocheetah.pianocheetah.metainfo.xml
++++ b/share/metainfo/app.pianocheetah.pianocheetah.metainfo.xml
+@@ -11,6 +11,8 @@
+   <project_license>Unlicense</project_license>
+    
+   <url type="homepage">https://pianocheetah.app</url>
++  <url type="bugtracker">https://github.com/Stephen-Hazel/PianoCheetah/issues</url>
++  <url type="vcs-browser">https://github.com/Stephen-Hazel/PianoCheetah</url>
+   <developer id="app.pianocheetah">
+     <name>Stephen Hazel</name>
+   </developer>
+@@ -38,15 +40,15 @@
+   <screenshots>
+     <screenshot type="default">
+       <caption>Playing a song in easy mode - 1 note max per hand</caption>
+-      <image>https://pianocheetah.app/doc/screen_ez.png</image>
++      <image>https://pianocheetah.app/doc/img/screen_ez.png</image>
+     </screenshot>
+     <screenshot>
+       <caption>PianoCheetah toolbar</caption>
+-      <image>https://pianocheetah.app/doc/toolbar.png</image>
++      <image>https://pianocheetah.app/doc/img/toolbar.png</image>
+     </screenshot>
+     <screenshot>
+       <caption>Playing the full notes of a song</caption>
+-      <image>https://pianocheetah.app/doc/screen.png</image>
++      <image>https://pianocheetah.app/doc/img/screen.png</image>
+     </screenshot>
+   </screenshots>
+    
+--
+libgit2 1.7.2
+
